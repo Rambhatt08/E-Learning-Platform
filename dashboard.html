@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Login - Smart Learn</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon.png" type="image/png">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="imgs\logo.jpg" alt="Brain Spot Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About US</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="dashboard.html" class="active">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <section class="login-container">
+        <div class="login-card">
+            <h2>Hi, Welcome back!</h2>
+            
+            <form class="login-form">
+                <input type="text" placeholder="Username or Email Address" class="input-field">
+                <input type="password" placeholder="Password" class="input-field">
+                
+                <div class="humanity-check">
+                    <label>Prove your humanity: 7 + 10 = </label>
+                    <input type="text" class="math-input">
+                </div>
+
+                <div class="form-options">
+                    <label class="checkbox-container">
+                        <input type="checkbox"> Keep me signed in
+                    </label>
+                    <a href="forgot-password.html" class="forgot-pass">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn-signin">Sign In</button>
+            </form>
+
+            <p class="register-link">Don't have an account? <a href="register.html">Register Now</a></p>
+        </div>
+    </section>
+
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-col">
+            <img src="imgs\1.png" alt="Brain Spot" class="footer-logo">
+            <p class="slogan">Learning often happens in<br> classrooms <br> but it doesn't have to.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Popular Contain</h4>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Contact Info</h4>
+            <p>1234567890</p>
+            <p>helpsmartlearn@gmail.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
